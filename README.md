@@ -1,4 +1,5 @@
-# 🐾 PawPal+ — AI-Powered Pet Care Planning & Health Triage
+# 🐾 PawPal+
+# An AI-Powered Pet Care Planning & Health Triage
 
 > A Streamlit application that combines intelligent daily schedule planning with an AI diagnostic assistant to help pet owners stay consistent with care and respond confidently to health concerns.
 
