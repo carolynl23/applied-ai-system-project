@@ -1,0 +1,223 @@
+[
+    {
+      "id": "kennel_cough",
+      "name": "Kennel cough (bordetella)",
+      "species": ["dog"],
+      "symptoms": ["coughing", "hacking", "honking cough", "gagging", "retching", "runny nose", "sneezing", "lethargy", "mild fever"],
+      "severity": "mild",
+      "description": "Highly contagious respiratory infection common after boarding or dog parks. Usually self-limiting in 1–3 weeks.",
+      "recommended_actions": [
+        "Rest and limit strenuous exercise",
+        "Keep away from other dogs",
+        "Provide fresh water and soft food if throat is sore",
+        "Monitor for worsening — vet visit if symptoms persist beyond 2 weeks or fever develops"
+      ],
+      "suggested_tasks": [
+        {"title": "Check temperature", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Limit walk to short toilet break", "duration_minutes": 10, "priority": "high", "category": "exercise"},
+        {"title": "Give soft/wet food", "duration_minutes": 10, "priority": "medium", "category": "feeding"},
+        {"title": "Monitor cough frequency", "duration_minutes": 5, "priority": "medium", "category": "medical"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["cough", "hack", "honk", "gag", "retch", "sneeze", "respiratory", "bark changed"]
+    },
+    {
+      "id": "parvovirus",
+      "name": "Canine parvovirus",
+      "species": ["dog"],
+      "symptoms": ["vomiting", "bloody diarrhea", "severe lethargy", "loss of appetite", "fever", "dehydration", "weakness"],
+      "severity": "critical",
+      "description": "Life-threatening viral disease affecting unvaccinated or partially vaccinated dogs. Requires emergency veterinary care immediately.",
+      "recommended_actions": [
+        "Go to an emergency vet immediately — this is life-threatening",
+        "Do not offer food or water without vet guidance",
+        "Isolate from other dogs completely",
+        "Bring vaccination records to the vet"
+      ],
+      "suggested_tasks": [
+        {"title": "Emergency vet visit NOW", "duration_minutes": 120, "priority": "high", "category": "medical"},
+        {"title": "Isolate from other pets", "duration_minutes": 5, "priority": "high", "category": "medical"}
+      ],
+      "vet_urgency": "emergency",
+      "keywords": ["vomit", "bloody stool", "blood diarrhea", "parvo", "lethargy", "not eating", "dehydrated", "weak puppy"]
+    },
+    {
+      "id": "urinary_tract_infection",
+      "name": "Urinary tract infection (UTI)",
+      "species": ["dog", "cat"],
+      "symptoms": ["frequent urination", "straining to urinate", "blood in urine", "licking genitals", "accidents indoors", "cloudy urine", "crying when urinating"],
+      "severity": "moderate",
+      "description": "Bacterial infection of the bladder or urethra. Common in female dogs and cats. Usually responds well to antibiotics.",
+      "recommended_actions": [
+        "Schedule vet appointment within 24–48 hours for urine test and antibiotics",
+        "Encourage water intake",
+        "Extra toilet trips outside",
+        "Monitor for signs of kidney involvement — fever, back pain, lethargy"
+      ],
+      "suggested_tasks": [
+        {"title": "Extra bathroom breaks", "duration_minutes": 10, "priority": "high", "category": "hygiene"},
+        {"title": "Encourage water drinking", "duration_minutes": 5, "priority": "high", "category": "feeding"},
+        {"title": "Book vet appointment", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Monitor urination", "duration_minutes": 5, "priority": "medium", "category": "medical"}
+      ],
+      "vet_urgency": "soon",
+      "keywords": ["pee", "urinate", "urine", "bladder", "accident", "licking", "straining", "blood in pee", "uti", "frequent trips outside"]
+    },
+    {
+      "id": "ear_infection",
+      "name": "Ear infection (otitis externa)",
+      "species": ["dog", "cat"],
+      "symptoms": ["head shaking", "scratching at ear", "ear odor", "dark discharge", "redness in ear", "whimpering when ear touched", "tilting head"],
+      "severity": "mild",
+      "description": "Infection of the outer ear canal, often caused by yeast, bacteria, or ear mites. Very common in floppy-eared dogs.",
+      "recommended_actions": [
+        "Schedule vet appointment for diagnosis and ear drops prescription",
+        "Do not insert anything into the ear canal",
+        "Gently clean outer visible area only",
+        "Keep ear dry — no swimming until resolved"
+      ],
+      "suggested_tasks": [
+        {"title": "Inspect ear for discharge/odor", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Book vet appointment", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Prevent swimming/bath", "duration_minutes": 5, "priority": "medium", "category": "hygiene"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["ear", "scratch ear", "shake head", "smell ear", "discharge", "dark ear", "head tilt", "mites"]
+    },
+    {
+      "id": "fleas",
+      "name": "Flea infestation",
+      "species": ["dog", "cat"],
+      "symptoms": ["excessive scratching", "biting at skin", "hair loss", "red irritated skin", "small dark specks in fur", "restlessness", "visible small insects"],
+      "severity": "mild",
+      "description": "External parasite infestation. Can cause flea allergy dermatitis and anemia in severe cases. Requires treating pet AND environment.",
+      "recommended_actions": [
+        "Apply vet-recommended flea treatment (spot-on, oral, or collar)",
+        "Wash all bedding in hot water",
+        "Vacuum carpets and furniture thoroughly",
+        "Treat all pets in the household",
+        "Treat home environment with spray if infestation is heavy"
+      ],
+      "suggested_tasks": [
+        {"title": "Apply flea treatment", "duration_minutes": 10, "priority": "high", "category": "medical"},
+        {"title": "Wash pet bedding (hot wash)", "duration_minutes": 60, "priority": "high", "category": "hygiene"},
+        {"title": "Vacuum all carpets and furniture", "duration_minutes": 30, "priority": "high", "category": "hygiene"},
+        {"title": "Check all other pets for fleas", "duration_minutes": 15, "priority": "medium", "category": "medical"},
+        {"title": "Fine-comb coat for flea dirt", "duration_minutes": 15, "priority": "medium", "category": "grooming"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["flea", "scratch", "itch", "bite", "hair loss", "bald patch", "dark specks", "flea dirt", "jumping bugs"]
+    },
+    {
+      "id": "hyperthyroidism_cat",
+      "name": "Hyperthyroidism",
+      "species": ["cat"],
+      "symptoms": ["weight loss despite eating well", "increased appetite", "increased thirst", "hyperactivity", "vomiting", "diarrhea", "unkempt coat", "rapid heart rate"],
+      "severity": "moderate",
+      "description": "Overactive thyroid gland — most common hormonal disorder in middle-aged and older cats. Very treatable with medication, diet, or radioiodine therapy.",
+      "recommended_actions": [
+        "Schedule vet appointment for blood panel and thyroid level test",
+        "Note food and water intake changes to report to vet",
+        "Monitor weight weekly",
+        "Discuss medication vs dietary options with vet"
+      ],
+      "suggested_tasks": [
+        {"title": "Weigh pet and record", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Book vet blood test", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Log daily food and water intake", "duration_minutes": 5, "priority": "medium", "category": "medical"},
+        {"title": "Give thyroid medication (if prescribed)", "duration_minutes": 5, "priority": "high", "category": "medical"}
+      ],
+      "vet_urgency": "soon",
+      "keywords": ["weight loss", "eating more", "drinking more", "active", "hyperactive", "skinny", "thyroid", "thirsty", "vomit cat"]
+    },
+    {
+      "id": "arthritis",
+      "name": "Osteoarthritis",
+      "species": ["dog", "cat"],
+      "symptoms": ["limping", "stiffness", "reluctance to climb stairs", "difficulty rising", "reduced activity", "licking joints", "swollen joints", "irritability"],
+      "severity": "mild",
+      "description": "Chronic joint degeneration common in older or larger breed pets. Cannot be cured but is highly manageable with medication, weight management, and gentle exercise.",
+      "recommended_actions": [
+        "Schedule vet appointment for assessment and pain management plan",
+        "Provide orthopedic bedding",
+        "Switch to low-impact short walks instead of long ones",
+        "Consider joint supplements (discuss with vet first)",
+        "Maintain healthy weight to reduce joint load"
+      ],
+      "suggested_tasks": [
+        {"title": "Short gentle walk (no stairs)", "duration_minutes": 15, "priority": "high", "category": "exercise"},
+        {"title": "Give joint supplement / medication", "duration_minutes": 5, "priority": "high", "category": "medical"},
+        {"title": "Provide heated/orthopedic bed", "duration_minutes": 10, "priority": "medium", "category": "other"},
+        {"title": "Massage stiff joints gently", "duration_minutes": 10, "priority": "low", "category": "medical"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["limp", "stiff", "slow", "joint", "stairs", "not jumping", "reluctant", "sore leg", "arthritis", "old dog", "lame"]
+    },
+    {
+      "id": "dental_disease",
+      "name": "Dental disease",
+      "species": ["dog", "cat"],
+      "symptoms": ["bad breath", "drooling", "difficulty eating", "pawing at mouth", "red gums", "loose teeth", "yellow/brown tartar", "bleeding gums", "weight loss"],
+      "severity": "mild",
+      "description": "Periodontal disease affects most pets over age 3. Can lead to tooth loss and systemic infection if untreated. Preventable with regular brushing and dental cleanings.",
+      "recommended_actions": [
+        "Schedule dental examination with vet",
+        "Start daily tooth brushing with pet-safe toothpaste",
+        "Offer dental chews as supplement (not replacement) to brushing",
+        "Consider professional dental cleaning under anesthesia"
+      ],
+      "suggested_tasks": [
+        {"title": "Brush teeth with pet toothpaste", "duration_minutes": 5, "priority": "high", "category": "hygiene"},
+        {"title": "Offer dental chew", "duration_minutes": 5, "priority": "medium", "category": "enrichment"},
+        {"title": "Book dental check-up", "duration_minutes": 5, "priority": "high", "category": "medical"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["bad breath", "smelly mouth", "drool", "tooth", "gum", "tartar", "plaque", "dental", "eating slowly", "dropping food"]
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety / stress",
+      "species": ["dog", "cat"],
+      "symptoms": ["pacing", "panting without heat", "hiding", "destructive behavior", "excessive barking", "clingy behavior", "loss of appetite", "house soiling", "shaking", "yawning excessively"],
+      "severity": "mild",
+      "description": "Behavioral and physiological stress response. Common triggers include loud noises, separation, changes in routine, or new environments. Usually manageable with behavior modification and enrichment.",
+      "recommended_actions": [
+        "Identify and reduce triggers where possible",
+        "Create a safe quiet space for the pet",
+        "Increase enrichment and interactive play",
+        "Consider pheromone diffuser (Adaptil/Feliway)",
+        "Consult vet if severe — medication or behavioral specialist may help"
+      ],
+      "suggested_tasks": [
+        {"title": "Calm enrichment activity", "duration_minutes": 20, "priority": "high", "category": "enrichment"},
+        {"title": "Set up safe hiding space", "duration_minutes": 10, "priority": "medium", "category": "other"},
+        {"title": "Low-stimulation walk", "duration_minutes": 15, "priority": "medium", "category": "exercise"},
+        {"title": "Kong/puzzle feeder at meal time", "duration_minutes": 15, "priority": "low", "category": "enrichment"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["anxious", "scared", "fear", "panic", "shake", "tremble", "hide", "pace", "pant", "separation", "loud noise", "fireworks", "storm", "destructive", "bark"]
+    },
+    {
+      "id": "obesity",
+      "name": "Obesity / overweight",
+      "species": ["dog", "cat"],
+      "symptoms": ["visible weight gain", "difficulty feeling ribs", "reduced activity", "heavy breathing during exercise", "lethargy", "large belly", "reluctance to play"],
+      "severity": "mild",
+      "description": "Excess body weight significantly increases risk of diabetes, joint disease, heart disease, and cancer. Managed with portion control and increased activity.",
+      "recommended_actions": [
+        "Weigh pet and compare to ideal breed weight",
+        "Measure all food portions precisely — stop free feeding",
+        "Replace high-calorie treats with vegetables (carrot, green bean for dogs)",
+        "Increase daily exercise gradually",
+        "Schedule vet check to rule out underlying thyroid or hormonal issues"
+      ],
+      "suggested_tasks": [
+        {"title": "Measure and weigh food portion", "duration_minutes": 5, "priority": "high", "category": "feeding"},
+        {"title": "Extra walk (low intensity)", "duration_minutes": 20, "priority": "high", "category": "exercise"},
+        {"title": "Weigh pet and record", "duration_minutes": 5, "priority": "medium", "category": "medical"},
+        {"title": "Replace treats with veggies", "duration_minutes": 5, "priority": "medium", "category": "feeding"}
+      ],
+      "vet_urgency": "routine",
+      "keywords": ["overweight", "fat", "obese", "weight gain", "chubby", "ribs", "eating too much", "diet", "portion", "heavy"]
+    }
+  ]
